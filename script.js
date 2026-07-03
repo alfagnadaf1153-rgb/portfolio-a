@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const typedTextSpan = document.querySelector('.typed-text');
   const cursorSpan = document.querySelector('.cursor');
 
-  const textArray = ["AI & Data Science Student", "Machine Learning Enthusiast", "Python Developer", "Data Analyst", "IoT Programmer"];
+  const textArray = ["AI & Data Science Student", "Machine Learning Enthusiast", "Python Developer", "Data Analyst", "AI & Data Science Student | IoT Developer"];
   const typingDelay = 100;
   const erasingDelay = 50;
   const newTextDelay = 2000; // Delay between current and next text
