@@ -140,6 +140,26 @@ section {
   font-weight: 300;
 }
 
+.education-card {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.education-label {
+  color: var(--secondary);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.education-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.education-card > p:last-child {
+  color: var(--text-muted);
+}
+
 /* Glassmorphism Card Style */
 .glass-card {
   background: var(--bg-card);
